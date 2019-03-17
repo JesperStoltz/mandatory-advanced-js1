@@ -1,0 +1,58 @@
+.chat-client__chatroom-container {
+    height: 510px;
+    border: 1 solid px;
+    background-color: azure;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.chat-client__chatroom-container__form {
+
+}
+
+.chat-client__chatroom-container__input {
+    width: 336px;
+    height: 40px;
+    border: 2px solid rgba(72, 72, 243, 0.534);;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.chat-client__chatroom-container__sendButton {
+    width: 54px;
+    height: 46px;
+    background-color:  azure;
+    color: rgba(21, 21, 241, 0.788);
+    font-weight: bold;
+    border: 2px solid rgba(72, 72, 243, 0.534);;
+    border-radius: 4px;
+}
+
+.chat-client__chatroom-container__sendButton:hover {
+  cursor: pointer;
+  background-color:  rgba(176, 253, 253, 0.699);
+  color: rgba(21, 21, 241, 0.788);
+}
+
+/*SCROLL*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: azure;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border: 1px solid rgba(72, 72, 243, 0.534);
+    background-color: rgba(139, 139, 248, 0.534);
+    border-radius: 50%;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(72, 72, 243, 0.534);
+  }

@@ -1,33 +1,37 @@
-.App {
-  text-align: center;
+.chat-client {
+  width: 400px;
+  height: 600px;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.chat-client__header {
+  background-color: rgba(139, 139, 248, 0.534);
+  height: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.239);
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.chat-client__header__title {
+  font-size: 30px;
+  color: azure;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: absolute;
+  top: -25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chat-client__header__logout {
+height: 30px;
+width: 30px;
+background-color: azure;
+border: 1px solid black;
+border-radius: 25%;
+position: relative;
+top: 5px;
+left: 180px;
+font-size: 25px;
 }

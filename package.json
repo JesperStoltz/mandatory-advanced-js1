@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/linkify-it": "^2.1.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-emoji-render": "^0.6.0",
+    "react-emojione": "^5.0.1",
+    "react-linkify": "^0.2.2",
+    "react-scripts": "2.1.8",
+    "socket.io": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

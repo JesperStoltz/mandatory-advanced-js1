@@ -1,0 +1,37 @@
+.chat-client__login-container {
+    background-color: azure;
+    height: 556px;
+
+}
+
+.chat-client__login-container__loginForm {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-client__login-container__title {
+    align-self: center;
+    color:  rgba(72, 72, 243, 0.534);
+}
+
+.chat-client__login-container__loginForm__input {
+    align-self: center;
+    width: 100px;
+    border: 2px solid rgba(72, 72, 243, 0.534);;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.chat-client__login-container__loginButton {
+    width: 108px;
+    height: 46px;
+    background-color:  rgba(139, 139, 248, 0.534);
+    color: azure;
+    font-weight: bold;
+    align-self: center;
+    margin-top: 10px;
+    border: 2px solid rgba(72, 72, 243, 0.534);;
+    border-radius: 4px;
+}
